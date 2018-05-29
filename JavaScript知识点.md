@@ -53,11 +53,15 @@ function compressImageTobase64(image,requiredWidth,requiredHeight,requiredQualit
 HTML页面间跳转及参数传递
 页面跳转的方式
 HTML页面跳转：使用JS手动控制，或HTML链接自动实现
+```
 window.open(url, "", "width=600,height=400");
+```
 第二个参数：_self，在当前窗口打开窗口；_blank（默认值），在另外的新建窗口打开新窗口；
+```
 window.location.href="http://www.jb51.net";     //在同当前窗口中打开窗口
 window.history.back(-1);    //返回上一页面
  <a href="http://www.baidu.net"  target="_blank">
+ ```
  参数传递
  1. url传参：
 
